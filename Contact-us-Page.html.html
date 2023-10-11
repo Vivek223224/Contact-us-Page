@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather+Sans:wght@400;800&family=Poppins:wght@400;600;800&display=swap");
+    </style>
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #55ffe5;
+        font-size: 14px;
+        font-family: "Lato", sans-serif;
+        font-family: "Merriweather Sans", sans-serif;
+        font-family: "Poppins", sans-serif;
+      }
+      .container {
+        width: 80%;
+        margin: 50px auto;
+      }
+      .contect-box {
+        display: flex;
+        background: #fff;
+      }
+      .contect-left {
+        flex-basis: 60%;
+        padding: 40px 60px;
+      }
+      .contect-right {
+        flex-basis: 40%;
+        padding: 40px;
+        background: #1c00b5;
+        color: #fff;
+      }
+      h1 {
+        margin-bottom: 10px;
+      }
+      .container p {
+        margin-bottom: 10px;
+      }
+      .input-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+      .input-row .input-group {
+        flex-basis: 45%;
+      }
+      input {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        outline: none;
+        padding-bottom: 5px;
+      }
+      textarea {
+        width: 100px;
+        border: 1px solid #ccc;
+        outline: none;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      label {
+        margin-bottom: 6px;
+        display: block;
+        color: #1c00b5;
+      }
+      .massage {
+        width: 100%;
+      }
+      button {
+        background-color: #1c00b5;
+        color: #fff;
+        padding: 8px;
+        width: 100px;
+        margin-top: 15px;
+        border-radius: 20px;
+        box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+      }
+      .contect-left h3 {
+        color: #1c00b5;
+        font-weight: 600;
+        margin-bottom: 30px;
+      }
+      .contect-right h3 {
+        font-weight: 600;
+        margin-bottom: 30px;
+      }
+      tr td:first-child {
+        padding-right: 20px;
+      }
+      tr td {
+        padding-top: 20px;
+      }
+      button:hover {
+        background: #4424e7;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Connect With us</h1>
+      <p>
+        We would love to respond to your queries and help you succeed. <br />
+        Feel to get in touch with us.
+      </p>
+      <div class="contect-box">
+        <div class="contect-left">
+          <h3>Send your requst</h3>
+          <form>
+            <div class="input-row">
+              <div class="input-group">
+                <label>Name :</label>
+                <input type="text" placeholder=" Vivek Chauhan" />
+              </div>
+
+              <div class="input-group">
+                <label>Phone number :</label>
+                <input type="text" placeholder=" +91 9658 95 5868" />
+              </div>
+            </div>
+            <div class="input-row">
+              <div class="input-group">
+                <label>Email :</label>
+                <input type="Email" placeholder=" vivek.vlogs0129@gmail.com" />
+              </div>
+
+              <div class="input-group">
+                <label>subject :</label>
+                <input type="text" placeholder="Prodect demo" />
+              </div>
+            </div>
+            <label>Massage :</label>
+            <textarea
+              class="massage"
+              rows="5"
+              placeholder="Your Massage"
+            ></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+        <div class="contect-right">
+          <h3>Reach us</h3>
+          <table>
+            <tr>
+              <td>Email :</td>
+              <td>contetus@example.com</td>
+            </tr>
+            <tr>
+              <td>Phone :</td>
+              <td>+91 9658 95 5868</td>
+            </tr>
+            <tr>
+              <td>Addresh :</td>
+              <td>
+                #18, Gorund floor,7th cross <br />
+                Some layout, Some Road, Koromangla <br />
+                Benguluru 560001
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
